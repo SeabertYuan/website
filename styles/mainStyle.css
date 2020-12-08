@@ -112,7 +112,32 @@
 
 #projectSection{
     background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
 }
+#projectSection .container{
+    padding: 10px;
+}
+#projectTitle{
+    padding: 5px;
+}
+#projectTitle h2{
+    margin: 0;
+    padding: 0 20px;
+    font-size: 5vh;
+    color: rgb(39, 111, 114);
+    font-family: 'Poppins', sans-serif;
+}
+.specialCell{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.specialCell .cell{
+    padding: 20px 30px;
+}
+
 @media (max-width:800px){
 
 }
