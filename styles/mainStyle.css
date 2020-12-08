@@ -12,6 +12,7 @@
     padding: 25px 0;
 }
 
+/* Navigation bar */
 .navBar{
     display: flex;
     flex-wrap: nowrap;
@@ -47,12 +48,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Main Section */
 #mainSection{
     background-color: coral;
     justify-content: center;
+    padding: 20vh;
 }
 .mainTitle{
-    font-size: 10vh;
+    font-size: 7vh;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -60,16 +63,56 @@
     border: 2px solid lightblue;
 }
 .mainSubtitle{
-    font-size: 5vh;
+    font-size: 3vh;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
 
+/* About Section */
 #aboutSection{
+    display: flex;
     background-color: lightblue;
+}
+#aboutTitle{
+    text-align: end;
+    padding: 0px 15px;
+    font-size: 2vh;
+    color: rgb(146, 45, 146);
+    font-family: 'Poppins', sans-serif;
+}
+#aboutDesc{
+    text-align: right;
+    padding: 15px;
+    font-size: 2.5vh;
+    font-family: 'Poppins', sans-serif;
+}
+#aboutText{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 50%;
+}
+#aboutImage{
+    display: flex;
+    flex: 50%;
+    justify-content: flex-start;
+}
+#aboutImage img{
+    padding: 15px;
+}
+#aboutImage label{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 2.5vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 #projectSection{
     background-color: lightcoral;
+}
+@media (max-width:800px){
+
 }
