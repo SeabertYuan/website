@@ -37,6 +37,7 @@
 .pageLabel{
     display: flex;
     justify-content: flex-start;
+    text-align: center;
     padding: 10px;
     flex: 1 0 10%;
 }
@@ -178,6 +179,17 @@
     padding: 0 5px;
     font-size: 2vh;
     font-family: 'Poppins', sans-serif;
+}
+#emailForm [type=submit]{
+    width: 25vh;
+    background-color: rgb(210, 255, 255);
+    font-size: 135%;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+#emailForm [type=submit]:hover{
+    background-color: rgb(210, 245, 245);
 }
 
 @media (max-width:800px){
