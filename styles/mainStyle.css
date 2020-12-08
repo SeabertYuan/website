@@ -138,6 +138,48 @@
     padding: 20px 30px;
 }
 
+/*Contact Form*/
+#contactSection{
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+#contactTitle{
+    padding: 50px 0 0 0;
+}
+#contactTitle .cell{
+    padding: 0;
+}
+#contactTitle h2{
+    margin: 0;
+    font-size: 5vh;
+    color: lightcoral;
+    font-family: 'Poppins', sans-serif;
+}
+#emailForm input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#nameEnter{
+    width: 15vh;
+}
+#emailEnter{
+    width: 25vh;
+}
+#emailForm input:focus{
+    background-color: rgb(226, 226, 226);
+}
+#emailForm{
+    display: flex;
+    flex-direction: column;
+}
+#emailForm label{
+    padding: 0 5px;
+    font-size: 2vh;
+    font-family: 'Poppins', sans-serif;
+}
+
 @media (max-width:800px){
 
 }
