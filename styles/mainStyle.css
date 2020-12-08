@@ -1,0 +1,75 @@
+.pageSections{
+    display:flex;
+    margin:0;
+    padding: 50px 0;
+}
+.container{
+    padding: 50px 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cell{
+    padding: 25px 0;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.emptyNavSpace{
+    display: flex;
+    flex: 2 2 60%;
+}
+.navLinks{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    flex: 1 0 30%;
+}
+.navLinks a{
+    padding: 15px;
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.pageLabel{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    flex: 1 0 10%;
+}
+.pageLabel label{
+    padding: 15px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 2.5vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#mainSection{
+    background-color: coral;
+    justify-content: center;
+}
+.mainTitle{
+    font-size: 10vh;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 50px;
+    border: 2px solid lightblue;
+}
+.mainSubtitle{
+    font-size: 5vh;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#aboutSection{
+    background-color: lightblue;
+}
+
+#projectSection{
+    background-color: lightcoral;
+}
