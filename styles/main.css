@@ -1,4 +1,4 @@
-.pageSections{
+/*.pageSections{
     display:flex;
     margin:0;
     padding: 50px 0;
@@ -12,7 +12,7 @@
     padding: 25px 0;
 }
 
-/* Navigation bar */
+/* Navigation bar 
 .navBar{
     display: flex;
     flex-wrap: nowrap;
@@ -111,6 +111,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Project Section */
 #projectSection{
     background-color: lightcoral;
     display: flex;
