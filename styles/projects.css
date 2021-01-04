@@ -1,19 +1,27 @@
 #projectsTitle{
-    background-color: coral;
+    display: flex;
+    background-color: black;
+    position: relative;
+    z-index: -1;
+    padding: 0;
     justify-content: center;
-    padding: 20vh;
+}
+#projectsTitle:before{
+    content: "";
+    position: absolute;
+    background-image: url(/resources/project-background-2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 .mainTitle{
-    font-size: 7vh;
+    position: relative;
+    z-index: 2;
+    font-size: 5em;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    padding: 20px 50px;
-    border: 2px solid lightblue;
-}
-.mainSubtitle{
-    font-size: 3vh;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
+    color: lightblue;
+    padding: 100px 0;
 }
